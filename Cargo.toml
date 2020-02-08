@@ -1,0 +1,12 @@
+[package]
+name = "image_editor"
+version = "0.1.0"
+authors = ["Paul Page <pjpage98@gmail.com>"]
+
+[dependencies]
+image = "0.23.0"
+
+[dependencies.sdl2]
+version = "0.33"
+default-features = false
+features = ["ttf", "unsafe_textures"]
